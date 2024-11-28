@@ -209,14 +209,14 @@ class LightRAG:
         return {
             # kv storage
             "JsonKVStorage": JsonKVStorage,
-            "OracleKVStorage": OracleKVStorage,
+          #  "OracleKVStorage": OracleKVStorage,
             # vector storage
             "NanoVectorDBStorage": NanoVectorDBStorage,
-            "OracleVectorDBStorage": OracleVectorDBStorage,
+          #  "OracleVectorDBStorage": OracleVectorDBStorage,
             # graph storage
             "NetworkXStorage": NetworkXStorage,
-            "Neo4JStorage": Neo4JStorage,
-            "OracleGraphStorage": OracleGraphStorage,
+          #  "Neo4JStorage": Neo4JStorage,
+          #  "OracleGraphStorage": OracleGraphStorage,
             # "ArangoDBStorage": ArangoDBStorage
         }
 
