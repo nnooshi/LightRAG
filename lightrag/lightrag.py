@@ -40,9 +40,9 @@ from .storage import (
     NetworkXStorage,
 )
 
-from .kg.neo4j_impl import Neo4JStorage
+#from .kg.neo4j_impl import Neo4JStorage
 
-from .kg.oracle_impl import OracleKVStorage, OracleGraphStorage, OracleVectorDBStorage
+#from .kg.oracle_impl import OracleKVStorage, OracleGraphStorage, OracleVectorDBStorage
 
 # future KG integrations
 
